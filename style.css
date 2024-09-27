@@ -54,6 +54,8 @@ body {
 
 /* Header Start */
 
+/* Deixa o menu fixo */
+
 #header{
   display: flex;
   align-items: left;
@@ -142,7 +144,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
  }
 
  #feature .fe-box {
