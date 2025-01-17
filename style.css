@@ -478,6 +478,11 @@ body {
   color: #ffbd27;
 }
 
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
 #newsletter input{
    height: 3.125rem;
    padding: 0 1.25rem;
@@ -486,12 +491,16 @@ body {
    border: 1px solid transparent;
    border-radius: 4px;
    outline: none;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
 }
 
-#newsletter input{
+#newsletter button{
   background-color: #088178;
   color: #e3e6f3;
   white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 
